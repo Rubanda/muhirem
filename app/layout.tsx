@@ -6,10 +6,25 @@ import { ThemeProvider } from '@/components/theme-provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Moise Muhire',
-  description: 'moisemuhire.com',
-}
+
+export const metadata = {
+  title: "Moise Muhire's blog",
+  description:
+    "Moise Muhire is  a software engineer.",
+  openGraph: {
+    title: "Moise Muhire's blog",
+    description:
+      "Moise Muhire is  a software engineer.",
+    url: "https://muhirem.com",
+    siteName: "Moise Muhire's blog",
+  },
+  twitter: {
+    site: "@MoiseMuhire3",
+    creator: "@MoiseMuhire3",
+  },
+  metadataBase: new URL("https://muhirem.com"),
+};
+
 
 export default function RootLayout({
   children,
@@ -19,7 +34,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body 
-      // className="bg-background max-w-2xl mx-auto min-h-screen" 
+      className={inter.className}
+      suppressHydrationWarning={true}
+
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NavBar />
