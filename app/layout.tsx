@@ -18,14 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`max-w-2xl m-auto ${inter.className}`} >
+      <body 
+      // className="bg-background max-w-2xl mx-auto min-h-screen" 
+      >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-
-          <main className="p-6 pt-3 md:pt-6 min-h-screen">
-
-            <NavBar />
-            {children}
-          </main>
+          <NavBar />
+          {children}
         </ThemeProvider>
       </body>
     </html>
