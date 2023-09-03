@@ -18,19 +18,27 @@ export default function Projects() {
             Health and Fitness Web App
           </span>
         </Link>
-        <Link target='_blank' href="https://masatafit.com" className='flex flex-col py-3'>
+        <Link target='_blank' href="https://safaricharger.com" className='flex flex-col py-3'>
           <span className='underline'>
             SafariCharger
           </span>
           <span className='text-muted-foreground'>
           We&apos;re an East African startup based in Rwanda, specializing in EV charger operating systems.          </span>
         </Link>
-        <Link target='_blank' href="https://masatafit.com" className='flex flex-col py-3'>
+        <Link target='_blank' href="https://www.jfountainmission.org/" className='flex flex-col py-3'>
           <span className='underline'>
-            Masatafit
+          jfountainmission
           </span>
           <span className='text-muted-foreground'>
-            Health and Fitness Web App
+          Jacob&apos;s Fountain Mission: A Nonprofit Sharing God&apos;s Love Through Deeds.
+          </span>
+        </Link>
+        <Link target='_blank' href="https://health-app-front.vercel.app/" className='flex flex-col py-3'>
+          <span className='underline'>
+          healt-app school project
+          </span>
+          <span className='text-muted-foreground'>
+          Track your heart rate and location to generate detailed health reports.
           </span>
         </Link>
         </div>
