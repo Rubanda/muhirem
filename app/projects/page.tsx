@@ -9,6 +9,14 @@ export default function Projects() {
         I&apos;ve worked on various small projects, but these are the ones I&apos;m most proud of. Several are open-source, so feel free to check out the code and contribute your ideas for improvement.
       </p>
       <div>
+      <Link target='_blank' href="https://masata.app/" className='flex flex-col py-3'>
+          <span className='underline'>
+            Masata App
+          </span>
+          <span className='text-muted-foreground'>
+            Masata app: Organize information, coordinate events, engage congregation.
+          </span>
+        </Link>
 
         <Link target='_blank' href="https://masatafit.com" className='flex flex-col py-3'>
           <span className='underline'>
@@ -23,25 +31,18 @@ export default function Projects() {
             SafariCharger
           </span>
           <span className='text-muted-foreground'>
-          We&apos;re an East African startup based in Rwanda, specializing in EV charger operating systems.          </span>
+            We&apos;re an East African startup based in Rwanda, specializing in EV charger operating systems.          </span>
         </Link>
         <Link target='_blank' href="https://www.jfountainmission.org/" className='flex flex-col py-3'>
           <span className='underline'>
-          jfountainmission
+            jfountainmission
           </span>
           <span className='text-muted-foreground'>
-          Jacob&apos;s Fountain Mission: A Nonprofit Sharing God&apos;s Love Through Deeds.
+            Jacob&apos;s Fountain Mission: A Nonprofit Sharing God&apos;s Love Through Deeds.
           </span>
         </Link>
-        <Link target='_blank' href="https://health-app-front.vercel.app/" className='flex flex-col py-3'>
-          <span className='underline'>
-          healt-app school project
-          </span>
-          <span className='text-muted-foreground'>
-          Track your heart rate and location to generate detailed health reports.
-          </span>
-        </Link>
-        </div>
+       
+      </div>
     </main>
   )
 }

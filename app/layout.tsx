@@ -9,8 +9,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: "Moise Muhire's blog",
+
   description:
     "Moise Muhire is  a software engineer.",
+
   openGraph: {
     title: "Moise Muhire's blog",
     description:
@@ -18,11 +20,13 @@ export const metadata = {
     url: "https://muhirem.com",
     siteName: "Moise Muhire's blog",
   },
+
   twitter: {
     site: "@MoiseMuhire3",
     creator: "@MoiseMuhire3",
   },
-  metadataBase: new URL("https://muhirem.com"),
+
+  metadataBase: new URL("https://muhirem.com")
 };
 
 

@@ -28,7 +28,7 @@ export const NavBar = () => {
             About
           </Link> */}
           <a
-            href="https://twitter.com/MoiseMuhire3"
+            href="https://x.com/MoiseMuhire3"
             target="_blank"
             className="inline-flex hover:bg-gray-200 dark:hover:bg-[#313131] items-center p-2 rounded-sm transition-[background-color] whitespace-nowrap -mr-2"
           >
